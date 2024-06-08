@@ -1,0 +1,135 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+
+
+header {
+    animation: gladient 8s ease infinite;
+    background: linear-gradient(-45deg,#95ffb7,#6ae0ff,#e380ff,#ff4093) no-repeat;
+    background-position: center;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background-size: 300% 300%;
+    height: 70px;
+    width: 100vw;
+    margin-top: 0px;
+    color: black;
+    text-align: center;
+    place-items: center;
+    padding-top:25px;
+    font-family: sans-serif;
+    font-weight: bold; 
+    margin: auto; 
+}
+
+.section_1{
+    margin: auto;
+}
+
+#legend{
+    color: #ff5f2b;
+}
+
+body {
+    place-items: center;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    background-image: url("65206.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    display: inline-block;
+    margin: 0 auto;
+    
+}
+
+.formulario{
+    background-image: url("./imgs/formulario.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px;
+    margin: 0 auto;
+}
+
+.main{
+    height: 80vh;
+}
+
+.fieldset{
+    height: 60vh;
+    margin-top: 15px;
+    display: block;
+    justify: center;
+    text-align: center;
+    border: 2px solid #eaeaff;
+    overflow: auto;
+    margin: 0 auto;
+}
+
+.dives{
+    margin: 5px;
+    margin-top:10px;
+}
+
+.labels{
+    color: #55d5ff;
+}
+
+footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 2px;
+}
+
+.fieldset input{
+    height: 35px;
+    width: 70vw;
+    margin-bottom: 12px;
+    background-color: #ffffff32;
+    border: 1px solid #40f5ff;
+    border-radius: 5px;
+}
+
+#link{
+    background-color: #55ffd5;
+    width: 40vw;
+    align-content: center;
+    text-align: center;
+    margin: auto;
+    margin-top: 15px;
+    height: 35px;
+    border-radius: 5px;
+}
+
+#link a {
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px;
+}
+
+#criar{
+    margin-top: 40px;
+}
+
+#criar a {
+    text-decoration: none;
+    color: #ff5f2b;
+}
+
+@keyframes gladient {
+    0%{
+        background-position: 0 50%;
+    }
+    
+    50%{
+        background-position: 100% 50%;
+    }
+    
+    100%{
+        background-position: 0 50%;
+    }
+}
